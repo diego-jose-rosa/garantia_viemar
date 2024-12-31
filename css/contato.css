@@ -1,0 +1,81 @@
+header {
+    background-color: #e3f2fd;
+    padding: 10px 0px;
+}
+
+body {
+    background-color: #e3f2fd; ;
+}
+
+.centro {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.centro nav a {
+    font-size: 18px;
+}
+
+.centro nav a:hover {
+  color: #FFFFFF;
+  vertical-align: top;
+  font-weight: bold;
+  text-decoration: underline;
+  color: orange;
+}
+
+#img_garantia {
+    width: 200px;
+    height: 200px ;
+}
+
+ h1 {
+    font-weight: bold;
+    text-align: center;
+ }
+.centro img {
+    margin-right: 30%;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.saiba_mais {
+    width: 30%;
+    margin: 0 auto;
+    background-color: orange;
+    text-align: center;
+    border: 3px solid orange;
+    border-radius: 5px;
+    font-size: 1px;
+    
+}
+
+.redes_sociais {
+    text-align: center;
+    font-size: 15px;
+    width: 18%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center; /* Alinha as imagens horizontalmente no centro */
+    gap: 5px; /* Espaço entre as imagens */
+    margin-bottom: 15px;
+}
+
+.icone {
+    width: 25px; /* Tamanho do ícone */
+    height: 25px; /* Tamanho do ícone */
+    object-fit: contain; /* Garante que a imagem não seja distorcida */
+  }

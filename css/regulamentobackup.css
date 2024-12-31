@@ -1,0 +1,104 @@
+header {
+  background-color: #e3f2fd;
+  padding: 10px 0px;
+}
+
+body {
+  background-color: #e3f2fd; 
+}
+
+.centro {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.centro nav a {
+  font-size: 18px;
+}
+
+.centro nav a:hover {
+color: #FFFFFF;
+vertical-align: top;
+font-weight: bold;
+text-decoration: underline;
+color: orange;
+}
+
+#img_garantia {
+  width: 200px;
+  height: 200px ;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3,h4 {
+  text-align:center;
+}
+
+.centro img {
+    margin-right: 30%;
+}
+
+.conteudo {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+.conteudo h4 {
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.conteudo #titulo_perda_garantia {
+  text-align: center;
+}
+
+.conteudo p {
+    text-align:justify;
+    font-size: 18px;
+}
+
+.conteudo a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  display: grid;
+  place-items: center;  /* Centraliza tanto horizontal quanto verticalmente */
+  height: 100vh;         /*Certifique-se de que o contêiner tenha altura */
+  margin-bottom: 50px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .rodape {
+    text-align: center;
+  }
+
+  .rodape a {
+      text-decoration: none;
+      color: #000000;
+  }
+
+  .email-link {
+    word-wrap: break-word;  /* Garante que o texto longo quebre a linha */
+    word-break: break-all;  /* Permite quebra de linha no meio do texto, se necessário */
+    display: inline-block;  /* Permite que o link se comporte como um bloco e quebre a linha */
+    max-width: 100%;         /* Garante que o link não ultrapasse a largura do contêiner */
+  }
+
